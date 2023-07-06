@@ -39,7 +39,7 @@ while True:
             print(Qtdade_saques)
             print("Número de saques excedido!")
 
-        elif valorSaque>500:
+        elif valorSaque>limiteSaque:
             print("Valor superior ao limte de R$500!")
 
         elif valorSaque>saldo:
